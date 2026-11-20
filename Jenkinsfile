@@ -3,10 +3,10 @@ pipeline{
     label "node-1"
   }
 
-  stages{
+  stage{
     stage("Hello"){
       steps{
-        sh "mkdir -p A/B/C"
+        sh "mkdir DEV-Direct"
       }
     }
   }
