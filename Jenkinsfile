@@ -6,9 +6,8 @@ pipeline{
   stages{
     stage("Hello"){
       steps{
-        sh "mkdir -p A/B/C
-        touch A/B/C/index.html
-        "
+        sh "mkdir -p A/B/C"
+        sh "touch A/B/C/index.html"
       }
     }
   }
