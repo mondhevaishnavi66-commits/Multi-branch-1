@@ -6,7 +6,7 @@ pipeline{
   stage{
     stage("Hello"){
       steps{
-        sh "mkdir DEV-Direct"
+        sh "mkdir Dev-Direct"
       }
     }
   }
