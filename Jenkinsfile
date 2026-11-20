@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage("Hello"){
       steps{
-        sh "mkdir -p A/B/C"
+        sh "mkdir Prod-Direct"
       }
     }
   }
